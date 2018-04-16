@@ -1,0 +1,42 @@
+html, body {
+    padding:0;
+    width:100%;
+    height:100%;
+    margin:0;
+    top:0px;
+    left:0px;
+    background-color:rgba(0,0,0,0);
+
+}
+
+.header {
+    column-span: all; 
+    font-size:80px;
+    font-family: "Verdana";
+}
+
+.para {
+    font-stretch: condensed;
+}
+.main {
+    position:absolute;
+    min-height: 100%;
+    height: 100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+.twoColumns{
+    position:absolute;
+    column-gap: 40px;
+    column-fill: auto;
+    column-rule:1px solid #ccc;
+    column-count: 4;
+    height:100%;
+        
+}
+
+.colDefaults {
+    padding:50px;
+}
