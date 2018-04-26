@@ -12,6 +12,10 @@ function setBackground(r,g,b,a) {
     $("body").css("background-color", 'rgba('+Math.round(r*255)+','+Math.round(g*255)+','+Math.round(b*255)+','+Math.round(a*255)+')');
 }
 
+function setHeader(r,g,b,a) {
+    $(".header").css("color", 'rgba('+Math.round(r*255)+','+Math.round(g*255)+','+Math.round(b*255)+','+Math.round(a*255)+')');
+}
+
 function enableColumns(toggle) {
     if (toggle == 'on') {
         $( "#maindiv" ).addClass( "twoColumns" );
