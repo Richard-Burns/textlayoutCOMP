@@ -9,6 +9,11 @@ html, body {
 
 }
 
+p {
+    color:rgba(0,0,0,1);
+    font-size:14px;
+}
+
 .header {
     column-span: all; 
     font-size:80px;
